@@ -1,0 +1,90 @@
+---
+---
+
+@import "jekyll-theme-slate";
+
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  color: #373737;
+  background: #f2f2f2;
+  font-size: 16px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+h2, hr {
+  background: none;
+}
+
+.navbar {
+  float: left;
+  min-width: 200px;
+  max-width: 350px;
+  width: 25%;
+  margin-left: 0.5%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  height: 100%;
+}
+
+.inner {
+  min-width: 600px;
+  max-width: 85%;
+  margin-right: 4%;
+  text-align: justify;
+}
+
+.nav > li.active > a {
+  font-size: 16px;
+  background-color: #373737;
+}
+
+.nav li a {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.scalable {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.warning {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  background-color: #ffff66;
+  padding-right: 0.7em;
+  padding-left: 0.7em;
+}
+
+.unfinished {
+  color: red;
+}
+
+#main_content_wrap {
+  background: #f2f2f2;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  margin-top: 0.5%;
+}
+
+#main_content {
+  width: 100%;
+  padding-top: 0px;
+  margin-top: 0.5%;
+}
+
+#footer_wrap {
+  max-height: 200px;
+  background: #212121;
+}

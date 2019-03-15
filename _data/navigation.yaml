@@ -1,0 +1,39 @@
+docs_list_title:
+docs:
+- title: О Вомбате
+  items:
+    - title: Общая информация
+      url: /index.html
+    - title: Базовая платформа
+      url: /docs/about/chassis.html
+    - title: Отсек для оборудования
+      url: /docs/about/user_space.html
+
+- title: Основы работы
+  items:
+    - title: Начало и завершение работы
+      url: /docs/basics/power_on_off.html
+    - title: Зарядка аккумуляторов
+      url: /docs/basics/charging.html
+    # - title: Диагностика
+    #   url: /docs/basics/diagnostics.html
+    - title: Меры безопаcности
+      url: /docs/basics/safety.html
+
+- title: Ручное управление
+  url: /docs/workmodes/remote_control.html
+
+- title: Автономный режим
+  items:
+    - title: Введение
+      url: /docs/workmodes/autonomous/concepts.html
+    - title: Быстрый старт
+      url: /docs/workmodes/autonomous/move_base_demo.html
+
+# - title: Настройка
+#   items:
+#     - title: Установка Linux Ubuntu и ROS
+#       url: /docs/setup.html
+
+# - title: Возможные проблемы
+#   url: /docs/troubleshooting.html

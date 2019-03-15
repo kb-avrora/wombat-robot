@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+
+    <!-- Navgoco sidebar -->
+    <!-- Load JQuery -->
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  	<!-- Load jquery.cookie plugin (optional) -->
+  	<script type="text/javascript" src="/navgoco/src/jquery.cookie.js"></script>
+  	<!-- Load jquery.navgoco plugin js and css files -->
+  	<script type="text/javascript" src="/navgoco/src/jquery.navgoco.js"></script>
+  	<link rel="stylesheet" href="/navgoco/src/jquery.navgoco.css" type="text/css" media="screen" />
+
+    <!-- own css -->
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          {% if site.github.is_project_page %}
+            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+          {% endif %}
+
+          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="sidebar_navigation" class="navbar">
+        <ul id="sidebar_menu" class="nav">
+          {% for section in site.data.navigation.docs %}
+            {% if section.items %}
+              {% assign page_url = "#" %}
+            {% else %}
+              {% assign page_url = section.url %}
+            {% endif %}
+
+          <li class="active">
+            <a href="{{ page_url }}">{{ section.title }}</a>
+
+            {% if section.items %}
+              <ul>
+                {% for item in section.items %}
+                  <li><a href="{{item.url}}">{{ item.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      <section id="main_content" class="inner">
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        <p>Designed with <a href="https://github.com/pages-themes/slate">Slate theme</a> and <a href="https://github.com/tefra/navgoco">Navgoco plugin</a></p>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.nav').navgoco();
+      });
+    </script>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
