@@ -7,14 +7,14 @@ title: Отсек для оборудования
 
 <div style="display: flex;">
 <div style="display: inline; min-width:400px; width:50%">
-<img class="scalable" src="/assets/images/user_space/case.jpg">
+<img class="scalable" src="/wombat-robot/assets/images/user_space/case.jpg">
 </div>
 <div style="margin-left: 20px; margin-top: 0px; text-align: justify; width:50%;" markdown="1">
 Отсек для оборудования предназначен для размещения датчиков, а также вычислительного и сетевого оборудования пользователя. Отсек представляет собой защищённый от брызг контейнер с крепёжными отверстиями. Он легко снимается, что позволяет быстро менять отсеки местами, или снять вовсе, чтобы облегчить транспортировку робота.
 
 Внутри отсека имеются выводы линий питания 5 В, 12 В, 20 В, 48 В, предназначенные для подключения пользовательского оборудования.
 
-По периметру ящика расположены [контактные стоп-кнопки](/docs/basics/safety.html#стоп-кнопки), предназначенные для экстренной остановки робота в случае непредсказуемого и/или потенциально опасного поведения.
+По периметру ящика расположены [контактные стоп-кнопки](/wombat-robot/docs/basics/safety.html#стоп-кнопки), предназначенные для экстренной остановки робота в случае непредсказуемого и/или потенциально опасного поведения.
 
 Для коммуникации с базовой платформой используются встроенные разъемы, а для надежного крепления модулей друг к другу - боковые петли.
 
@@ -26,8 +26,8 @@ title: Отсек для оборудования
 Все свободное пространство внутри отсека может быть использовано для установки оборудования. Так как робот представляет собой мобильную платформу, во избежание опасных ситуаций и поломки оборудования оно должно быть надежно закреплено внутри отсека. Необходимые крепёжные отверсия можно проделать в нижней пластине и боковых стенках отсека. Вывод проводов рекомендуется делать через боковые стенки отсека; соответствующие отверстия рекомендуется оборудовать водонепроницаемыми сальниками (не входят в комплект робота).
 
 <div style="display: inline-block;">
-<img class="scalable" style="max-width:45%; max-height: 400px; float:left;" src="/assets/images/user_space/case_open.jpg">
-<img class="scalable" style="max-width:45%; max-height: 400px; float:left;" src="/assets/images/user_space/case_right.jpg">
+<img class="scalable" style="max-width:45%; max-height: 400px; float:left;" src="/wombat-robot/assets/images/user_space/case_open.jpg">
+<img class="scalable" style="max-width:45%; max-height: 400px; float:left;" src="/wombat-robot/assets/images/user_space/case_right.jpg">
 </div>
 
 <div class="warning" markdown="1">
@@ -39,5 +39,5 @@ title: Отсек для оборудования
 Периметр отсека изготовлен из станочного профиля 20х20 мм и 20х40 мм, что позволяет произвольным образом модифицировать верхнюю часть отсека, например, нарастив высоту отсека или добавив произвольную конструкцию на крышку.
 
 <div style="display: block; min-width:400px; width:40%;">
-<img class="scalable" src="/assets/images/user_space/mount.jpg">
+<img class="scalable" src="/wombat-robot/assets/images/user_space/mount.jpg">
 </div>

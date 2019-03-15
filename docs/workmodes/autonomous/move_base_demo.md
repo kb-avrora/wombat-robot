@@ -25,7 +25,7 @@ roslaunch wombat_navigation wombat_navigation_witout_map.launch
 В случае, если все системы работают исправно, откроется окно утилиты rviz с изображением текущей карты проходимости.
 
 <div style="display:inline-block;">
-<img style="width:320px; height:240px;" src="/assets/images/autonomous/mapless/rviz.jpg">
+<img style="width:320px; height:240px;" src="/wombat-robot/assets/images/autonomous/mapless/rviz.jpg">
 </div>
 
 Для задания цели выберите инструмент 2D Nav Goal и укажите им позицию на карте, куда роботу требуется переместиться. Если целевая позиция находится в зоне досягаемости и планировщику траектории удалось построить маршрут, робот начнёт автономное движение к цели.
@@ -33,5 +33,5 @@ roslaunch wombat_navigation wombat_navigation_witout_map.launch
 Экран rviz будет иметь следующий вид:
 
 <div style="display:inline-block">
-<img style="width:320px; height:240px;" src="/assets/images/autonomous/mapless/rviz2.jpg">
+<img style="width:320px; height:240px;" src="/wombat-robot/assets/images/autonomous/mapless/rviz2.jpg">
 </div>
