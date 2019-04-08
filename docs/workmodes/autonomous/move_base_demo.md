@@ -9,9 +9,13 @@ title: Запуск навигации без глобальной карты
 
 # Навигация без глобальной карты
 
-Для того, чтобы робот Вомбат проехал в заданную точку пространства, в пакете wombat_navigation имеется [launch-файл](http://wiki.ros.org/roslaunch) _wombat_navigation_without_map.launch_
+В том случае, когда глобальная карта заранее не известна, можно запустить сценарий следования в несколько ограниченном режиме. При этом планирование траектории будет осуществляться только на основе локальной карты проходимости. Данный сценарий пригоден для быстрого старта, так как содержит минимальное количество нод, которое должно быть настроено и запущено.
 
-Чтобы Вомбат автономно двигался в заданную точку, необходимо выполнить следующие действия:
+В пакете wombat_navigation в подкаталоге launch содержатся примеры launch-файлов, необходимые для запуска различных сценариев навигации робота с использованием пакетов из ROS navigation stack.
+ 
+Для движения по контрольным точкам без глобальной карты, в пакете wombat_navigation имеется [launch-файл](http://wiki.ros.org/roslaunch) _move_base_without_static_map.launch_
+
+Чтобы робот Вомбат автономно двигался в заданную точку, необходимо выполнить следующие действия:
 1. Открыть терминал Ubuntu (для этого можно воспользоваться сочетанием клавиш Ctrl+Alt+T) и выполнить команду:
 ```bash
 roscore
@@ -19,19 +23,24 @@ roscore
 
 2. Открыть другое окно терминала (либо вкладку) и выполнить команду:
 ```bash
-roslaunch wombat_navigation wombat_navigation_witout_map.launch
+roslaunch wombat_navigation move_base_without_static_map.launch
 ```
 
 В случае, если все системы работают исправно, откроется окно утилиты rviz с изображением текущей карты проходимости.
 
 <div style="display:inline-block;">
-<img style="width:320px; height:240px;" src="/wombat-robot/assets/images/autonomous/mapless/rviz.jpg">
+<img style="width:100%;" src="/wombat-robot/assets/images/autonomous/mapless/mapless.png">
 </div>
 
-Для задания цели выберите инструмент 2D Nav Goal и укажите им позицию на карте, куда роботу требуется переместиться. Если целевая позиция находится в зоне досягаемости и планировщику траектории удалось построить маршрут, робот начнёт автономное движение к цели.
+Для задания цели выберите инструмент 2D Nav Goal и укажите им позицию на карте, куда роботу требуется переместиться:
+<div style="display:inline-block">
+<img style="width:100%;" src="/wombat-robot/assets/images/autonomous/mapless/mapless_nav_goal.png">
+</div>
+
+Если целевая позиция находится в зоне досягаемости и планировщику траектории удалось построить маршрут, робот начнёт автономное движение к цели.
 
 Экран rviz будет иметь следующий вид:
 
 <div style="display:inline-block">
-<img style="width:320px; height:240px;" src="/wombat-robot/assets/images/autonomous/mapless/rviz2.jpg">
+<img style="width:100%;" src="/wombat-robot/assets/images/autonomous/mapless/mapless_move_base_example.png">
 </div>
