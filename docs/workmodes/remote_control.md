@@ -12,8 +12,8 @@ title: Режим ручного управления
 Пульт ДУ поставляется в комплекте с базовой платформой робота Вомбат. Он позволяет оператору вручную управлять роботом, а также переключаться из режима ручного управления в автономный режим и обратно. Далее рассмотрено назначение основных кнопок пульта RadioLink RC6GS; его детальное описание можно скачать  [на сайте производителя](http://radiolink.com.cn/doce/product-user-manual.html).
 
 <div style="display: flex;">
-<img style="float: left; height: 300px;" src="/wombat-robot/assets/images/rc/rc_controls_right.jpg" alt="Вид ПДУ справа">
-<img style="float: left; height: 300px;" src="/wombat-robot/assets/images/rc/rc_controls_left.jpg" alt="Вид ПДУ слева">
+<img style="float: left; height: 300px;" src="/wombat-robot-docs/assets/images/rc/rc_controls_right.jpg" alt="Вид ПДУ справа">
+<img style="float: left; height: 300px;" src="/wombat-robot-docs/assets/images/rc/rc_controls_left.jpg" alt="Вид ПДУ слева">
 <div style="margin-left: 20px; margin-top: -10px; white-space: pre-wrap; text-align: justify;">
 Для управления роботом используются следующие кнопки:  
 
@@ -43,7 +43,7 @@ title: Режим ручного управления
 ### Работа с роботом в режиме ручного управления
 
 <div class="warning" markdown="1">
-**Внимание!** Перед началом движения необходимо ознакомиться с разделом [Безопасность](/wombat-robot/docs/basics/safety.html).
+**Внимание!** Перед началом движения необходимо ознакомиться с разделом [Безопасность](/wombat-robot-docs/docs/basics/safety.html).
 </div>
 
 Порядок включения робота Вомбат для работы в режиме ручного управления:
@@ -56,7 +56,7 @@ title: Режим ручного управления
 
 4. Переведите робота в режим ручного управления, переключив тумблер (1) в положение "от себя".  
 
-5. Включите общее питание робота и питание контроллеров двигателей в соответствии с [документацией](/wombat-robot/docs/basics/power_on_off.html).
+5. Включите общее питание робота и питание контроллеров двигателей в соответствии с [документацией](/wombat-robot-docs/docs/basics/power_on_off.html).
 
 Чтобы убедиться, что робот корректно работает в режиме ручного управления, выполните слеующие действия:   
 

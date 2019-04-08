@@ -3,27 +3,27 @@ docs:
 - title: О Вомбате
   items:
     - title: Общая информация
-      url: /wombat-robot/index.html
+      url: /wombat-robot-docs/index.html
     - title: Базовая платформа
-      url: /wombat-robot/docs/about/chassis.html
+      url: /wombat-robot-docs/docs/about/chassis.html
     - title: Отсек для оборудования
-      url: /wombat-robot/docs/about/user_space.html
+      url: /wombat-robot-docs/docs/about/user_space.html
 
 - title: Основы работы
   items:
     - title: Начало и завершение работы
-      url: /wombat-robot/docs/basics/power_on_off.html
+      url: /wombat-robot-docs/docs/basics/power_on_off.html
     - title: Зарядка аккумуляторов
-      url: /wombat-robot/docs/basics/charging.html
+      url: /wombat-robot-docs/docs/basics/charging.html
     - title: Меры безопаcности
-      url: /wombat-robot/docs/basics/safety.html
+      url: /wombat-robot-docs/docs/basics/safety.html
 
 - title: Ручное управление
-  url: /wombat-robot/docs/workmodes/remote_control.html
+  url: /wombat-robot-docs/docs/workmodes/remote_control.html
 
 - title: Автономный режим
   items:
     - title: Введение
-      url: /wombat-robot/docs/workmodes/autonomous/concepts.html
+      url: /wombat-robot-docs/docs/workmodes/autonomous/concepts.html
     - title: Быстрый старт
-      url: /wombat-robot/docs/workmodes/autonomous/move_base_demo.html
+      url: /wombat-robot-docs/docs/workmodes/autonomous/move_base_demo.html
