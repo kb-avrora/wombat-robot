@@ -25,5 +25,9 @@ docs:
   items:
     - title: Введение
       url: docs/workmodes/autonomous/concepts.html
-    - title: Быстрый старт
+    - title: Начало работы
+      url: docs/workmodes/autonomous/beginning.html
+    - title: Подключение к бортовому компьютеру
+      url: docs/workmodes/autonomous/connection.html
+    - title: Навигация без карты
       url: docs/workmodes/autonomous/move_base_demo.html
