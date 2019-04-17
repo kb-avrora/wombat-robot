@@ -68,7 +68,7 @@ ssh wombat@192.168.1.10
 <img src="../../../images/config/ssh_unknown_host.png">
 </div>
 
-Затем последует приглашение ввода пароля.Пароль по умолчанию прилагается в инструкции.
+Затем последует приглашение ввода пароля. Пароль по умолчанию прилагается в инструкции.
 
 <div style="display:inline-block;">
 <img src="../../../images/config/ssh_pass.png">
