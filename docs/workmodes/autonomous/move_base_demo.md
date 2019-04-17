@@ -29,12 +29,12 @@ roslaunch wombat_navigation move_base_without_static_map.launch
 В случае, если все системы работают исправно, откроется окно утилиты rviz с изображением текущей карты проходимости.
 
 <div style="display:inline-block;">
-<img style="width:100%;" src="/wombat-robot-docs/assets/images/autonomous/mapless/mapless.png">
+<img style="width:100%;" src="../../../images/autonomous/mapless/mapless.png">
 </div>
 
 Для задания цели выберите инструмент 2D Nav Goal и укажите им позицию на карте, куда роботу требуется переместиться:
 <div style="display:inline-block">
-<img style="width:100%;" src="/wombat-robot-docs/assets/images/autonomous/mapless/mapless_nav_goal.png">
+<img style="width:100%;" src="../../../images/autonomous/mapless/mapless_nav_goal.png">
 </div>
 
 Если целевая позиция находится в зоне досягаемости и планировщику траектории удалось построить маршрут, робот начнёт автономное движение к цели.
@@ -42,5 +42,5 @@ roslaunch wombat_navigation move_base_without_static_map.launch
 Экран rviz будет иметь следующий вид:
 
 <div style="display:inline-block">
-<img style="width:100%;" src="/wombat-robot-docs/assets/images/autonomous/mapless/mapless_move_base_example.png">
+<img style="width:100%;" src="../../../images/autonomous/mapless/mapless_move_base_example.png">
 </div>
