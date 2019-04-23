@@ -31,3 +31,5 @@ docs:
       url: docs/workmodes/autonomous/connection.html
     - title: Навигация без карты
       url: docs/workmodes/autonomous/move_base_demo.html
+    - title: Построение 2D карты
+      url: docs/workmodes/autonomous/hector_slam.html
